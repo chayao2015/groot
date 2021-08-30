@@ -1,2 +1,2 @@
 # Groot
-SpringBoot and CocosCreator Game Development solution based on MagOKO.
+Mobile Game Development solution based on MagOKO.
