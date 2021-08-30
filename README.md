@@ -1,2 +1,2 @@
-# groot
+# Groot
 SpringBoot and CocosCreator Game Development solution based on MagOKO.
