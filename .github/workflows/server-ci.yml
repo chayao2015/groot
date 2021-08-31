@@ -21,6 +21,7 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
+
       - name: Cache local Maven repository
         uses: actions/cache@v2
         with:
@@ -28,8 +29,21 @@ jobs:
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
           restore-keys: |
             ${{ runner.os }}-maven-
-      - uses: actions/checkout@v2
+
+      - name: Checkout [deepinthink/magoko]
+        uses: actions/checkout@v2
+        with:
+          repository: deepinthink/magoko
+          path: deepinthink/magoko
+      - name: Install [deepinthink/magoko]
+        run: ./mvnw clean install -B -U
+        working-directory: deepinthink/magoko
+
+      - name: Checkout [deepinthink/groot]
+        uses: actions/checkout@v2
+
       - name: Check codingstyle
         run: ./mvnw spotless:check
-      - name: Build with Maven
+
+      - name: Build [deepinthink/groot]
         run: ./mvnw clean install -B -U
