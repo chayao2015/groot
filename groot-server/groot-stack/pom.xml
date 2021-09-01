@@ -20,5 +20,6 @@
   </properties>
   <modules>
     <module>groot-stack-broker-server</module>
+    <module>groot-stack-config-server</module>
   </modules>
 </project>
