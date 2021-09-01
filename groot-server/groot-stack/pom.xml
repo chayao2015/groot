@@ -21,5 +21,6 @@
   <modules>
     <module>groot-stack-broker-server</module>
     <module>groot-stack-config-server</module>
+    <module>groot-stack-login-server</module>
   </modules>
 </project>
