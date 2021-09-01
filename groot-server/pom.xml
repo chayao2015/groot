@@ -8,7 +8,7 @@
   <artifactId>groot</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <description>Mobile Game Development solution based on MagOKO.</description>
+  <description>Groot server</description>
   <url>https://github.com/deepinthink/groot</url>
   <inceptionYear>2021</inceptionYear>
   <organization>
