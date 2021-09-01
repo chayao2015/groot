@@ -50,6 +50,7 @@
   <modules>
     <module>groot-bom</module>
     <module>groot-parent</module>
+    <module>groot-stack</module>
   </modules>
   <build>
     <plugins>
