@@ -53,6 +53,7 @@
     <module>groot-bom</module>
     <module>groot-parent</module>
     <module>groot-main/groot-broker-server</module>
+    <module>groot-main/groot-config-server</module>
   </modules>
   <build>
     <plugins>
