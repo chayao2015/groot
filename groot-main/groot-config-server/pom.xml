@@ -6,13 +6,13 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.groot</groupId>
-    <artifactId>groot-parent</artifactId>
+    <artifactId>groot-main</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../../groot-parent/pom.xml</relativePath>
+    <relativePath>../pom.xml</relativePath>
   </parent>
   <artifactId>groot-config-server</artifactId>
   <packaging>jar</packaging>
-  <description>Groot :: Config Server</description>
+  <description>Groot Main :: Config Server</description>
   <properties>
     <parameter.license-header.location>
       ${project.basedir}/../../src/license-header.txt

@@ -6,13 +6,13 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.groot</groupId>
-    <artifactId>groot-parent</artifactId>
+    <artifactId>groot-main</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../../groot-parent/pom.xml</relativePath>
+    <relativePath>../pom.xml</relativePath>
   </parent>
   <artifactId>groot-game-server</artifactId>
   <packaging>jar</packaging>
-  <description>Groot :: Game Server</description>
+  <description>Groot Main :: Game Server</description>
   <properties>
     <parameter.license-header.location>
       ${project.basedir}/../../src/license-header.txt
@@ -20,8 +20,8 @@
   </properties>
   <dependencies>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
+      <groupId>org.deepinthink.magoko</groupId>
+      <artifactId>magoko-starter-config-client</artifactId>
     </dependency>
   </dependencies>
   <build>
