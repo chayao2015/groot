@@ -50,8 +50,11 @@
     </parameter.license-header.location>
   </properties>
   <modules>
+    <module>groot-battle</module>
     <module>groot-bom</module>
+    <module>groot-cross</module>
     <module>groot-parent</module>
+    <module>groot-game</module>
     <module>groot-main</module>
   </modules>
   <build>
