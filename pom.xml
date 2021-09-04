@@ -54,6 +54,7 @@
     <module>groot-parent</module>
     <module>groot-main/groot-broker-server</module>
     <module>groot-main/groot-config-server</module>
+    <module>groot-main/groot-game-server</module>
   </modules>
   <build>
     <plugins>
