@@ -19,10 +19,8 @@
     </parameter.license-header.location>
   </properties>
   <modules>
-    <module>groot-battle-server</module>
     <module>groot-broker-server</module>
     <module>groot-config-server</module>
-    <module>groot-cross-server</module>
     <module>groot-game-server</module>
   </modules>
 </project>
