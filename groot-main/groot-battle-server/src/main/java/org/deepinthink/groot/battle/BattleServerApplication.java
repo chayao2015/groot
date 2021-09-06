@@ -15,9 +15,11 @@
  */
 package org.deepinthink.groot.battle;
 
+import org.deepinthink.magoko.broker.client.EnableBrokerClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@EnableBrokerClient
 @SpringBootApplication
 public class BattleServerApplication {
   public static void main(String[] args) {
