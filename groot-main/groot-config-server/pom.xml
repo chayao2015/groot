@@ -13,11 +13,6 @@
   <artifactId>groot-config-server</artifactId>
   <packaging>jar</packaging>
   <description>Groot Main :: Config Server</description>
-  <properties>
-    <parameter.license-header.location>
-      ${project.basedir}/../../src/license-header.txt
-    </parameter.license-header.location>
-  </properties>
   <dependencies>
     <dependency>
       <groupId>org.deepinthink.magoko</groupId>

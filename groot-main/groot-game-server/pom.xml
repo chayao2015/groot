@@ -13,11 +13,6 @@
   <artifactId>groot-game-server</artifactId>
   <packaging>jar</packaging>
   <description>Groot Main :: Game Server</description>
-  <properties>
-    <parameter.license-header.location>
-      ${project.basedir}/../../src/license-header.txt
-    </parameter.license-header.location>
-  </properties>
   <dependencies>
     <dependency>
       <groupId>org.deepinthink.magoko</groupId>
