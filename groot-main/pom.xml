@@ -22,6 +22,7 @@
     <module>groot-broker-server</module>
     <module>groot-config-server</module>
     <module>groot-game-server</module>
+    <module>groot-login-server</module>
     <module>groot-pay-server</module>
   </modules>
 </project>
